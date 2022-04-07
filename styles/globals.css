@@ -1,16 +1,12 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
-  box-sizing: border-box;
+
+@layer components{
+    .navLink{
+        @apply font-raleway font-semibold text-white transition-colors duration-700 ease-in-out dark:hover:text-palette-yellow hover:text-palette-darkblue h-full pt-1 border-b-2 border-transparent dark:hover:border-palette-yellow hover:border-palette-darkblue flex md:items-center justify-center px-3
+    }
 }
