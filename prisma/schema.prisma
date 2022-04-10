@@ -31,3 +31,8 @@ model Product{
   userIDs String[] @db.ObjectId
   users User[] @relation(fields: [userIDs],references: [id])
 }
+
+model Category{
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+}

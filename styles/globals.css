@@ -7,6 +7,10 @@
 
 @layer components{
     .navLink{
-        @apply font-raleway font-semibold text-white transition-colors duration-700 ease-in-out dark:hover:text-palette-yellow hover:text-palette-darkblue h-full pt-1 border-b-2 border-transparent dark:hover:border-palette-yellow hover:border-palette-darkblue flex md:items-center justify-center px-3
+        @apply font-raleway font-semibold text-white transition-colors duration-700 ease-in-out dark:hover:text-palette-yellow hover:text-palette-litghblue h-full pt-1 border-b-2 border-transparent dark:hover:border-palette-yellow hover:border-palette-litghblue flex md:items-center justify-center px-3
+    }
+
+    .dashLink{
+        @apply w-full transition-colors duration-700 ease-in-out border-r-2 border-y-2 border-transparent hover:border-palette-litghblue dark:hover:border-palette-gray py-3 flex items-center gap-2 
     }
 }

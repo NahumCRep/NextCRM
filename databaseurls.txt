@@ -1,0 +1,3 @@
+DATABASE_URL=mongodb+srv://nahum:EQtGv3suGMR5JWXz@nextcrm.dx9qb.mongodb.net/crmdb?retryWrites=true&w=majority
+
+DATABASE_URL=mongodb://nahum:EQtGv3suGMR5JWXz@HOST/nextcrm.dx9qb.mongodb.net?ssl=true&connectTimeoutMS=5000

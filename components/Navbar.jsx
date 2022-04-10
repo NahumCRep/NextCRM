@@ -25,7 +25,10 @@ const Navbar = () => {
                             <Link href='/'><a><button className='navLink'>Home</button></a></Link>
                         </li>
                         <li className='w-auto md:h-full flex items-center'>
-                            <Link href='/'><a><button className='navLink'>Products</button></a></Link>
+                            <Link href='/products'><a><button className='navLink'>Products</button></a></Link>
+                        </li>
+                        <li className='w-auto md:h-full flex items-center'>
+                            <Link href='/dashboard'><a><button className='navLink'>Dashboard</button></a></Link>
                         </li>
                         <li className='dark:text-palette-yellow w-auto md:h-full flex items-center'>
                             {
