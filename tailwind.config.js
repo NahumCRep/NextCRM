@@ -24,6 +24,20 @@ module.exports = {
       },
       transitionProperty: {
         'width': 'width'
+      },
+      animation: {
+        'largeBounceUp': 'largeBounceUp 0.5s alternate infinite',
+        'largeBounceDown': 'largeBounceDown 0.5s alternate infinite',
+      },
+      keyframes:{
+        "largeBounceUp":{
+          "0%":{transform: 'translateY(-5px)'},
+          "100%":{transform: 'translateY(5px)'}
+        },
+        "largeBounceDown":{
+          "0%":{transform: 'translateY(5px)'},
+          "100%":{transform: 'translateY(-5px)'}
+        }
       }
     },
   },
