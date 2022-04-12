@@ -6,7 +6,7 @@ import { FaUsers, FaShoppingBag } from 'react-icons/fa'
 const DashboardPage = ({ children }) => {
     return (
         <section className='h-auto min-h-screen flex'>
-            <aside className='w-[18%] h-full min-h-screen bg-palette-darkblue dark:bg-black px-4'>
+            <aside className='w-[18%] h-auto min-h-screen bg-palette-darkblue dark:bg-black px-4'>
                 <h1 className='font-oswald text-3xl py-4 text-palette-white border-b-2 border-palette-white dark:border-palette-yellow'>Dashboard</h1>
                 <ul className='font-raleway font-medium text-palette-white w-full mt-2'>
                     <li><Link href='/dashboard'>
