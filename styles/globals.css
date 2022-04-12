@@ -11,6 +11,10 @@
     }
 
     .dashLink{
-        @apply w-full transition-colors duration-700 ease-in-out border-r-2 border-y-2 border-transparent hover:border-palette-litghblue dark:hover:border-palette-gray py-3 flex items-center gap-2 
+        @apply w-full transition-colors my-1 duration-700 ease-in-out border-r-2 border-transparent hover:border-palette-litghblue dark:hover:border-palette-gray py-3 flex items-center gap-2 
+    }
+
+    .tableCell{
+        @apply h-10 border-t-2 border-double border-white dark:border-palette-black text-center
     }
 }
